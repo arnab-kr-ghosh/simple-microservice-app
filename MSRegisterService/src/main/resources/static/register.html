@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+	<form name="Register" action="http://localhost:8080/users/register" method="post">
+		<table border="1" bgcolor="silver" align="center">
+			<tr>
+				<td>User ID  :</td>
+				<td><input type="text" name="userId" id="userId" /></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="text" name="password" id="password" /></td>
+			</tr>
+			<tr>
+				<td>Email    :</td>
+				<td><input type="text" name="email" id="email" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="submit"
+					value="submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
