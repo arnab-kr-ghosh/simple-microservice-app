@@ -18,7 +18,7 @@ public class TradeRegisterController {
 	private Map<String, User> users = new HashMap<>();
 
 	public TradeRegisterController() {
-		User user = new User("arnab", "passw0rd", "arnab.ghosh15@wipro.com");
+		User user = new User("arnab", "passw0rd", "xyz.abc@pqr.com");
 		users.put("arnab", user);
 	}
 
