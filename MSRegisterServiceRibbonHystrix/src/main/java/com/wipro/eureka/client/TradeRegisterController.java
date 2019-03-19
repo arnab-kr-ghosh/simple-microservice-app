@@ -40,7 +40,7 @@ public class TradeRegisterController {
 	protected String tradeService;
 
 	public TradeRegisterController() {
-		User user = new User("arnab", "passw0rd", "arnab.ghosh15@wipro.com");
+		User user = new User("arnab", "passw0rd", "xyz.abc@pqr.com");
 		users.put("arnab", user);
 	}
 
